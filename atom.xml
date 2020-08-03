@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://song921012.github.io/"/>
-  <updated>2020-07-02T06:35:54.768Z</updated>
+  <updated>2020-08-03T01:55:50.752Z</updated>
   <id>http://song921012.github.io/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Arcgis教程</title>
+    <link href="http://song921012.github.io/2020/08/03/Arcgis%E6%93%8D%E4%BD%9C/"/>
+    <id>http://song921012.github.io/2020/08/03/Arcgis%E6%93%8D%E4%BD%9C/</id>
+    <published>2020-08-03T01:25:00.000Z</published>
+    <updated>2020-08-03T01:55:50.752Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;地图数据获取和整理&quot;&gt;&lt;a href=&quot;#地图数据获取和整理&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Arcgis" scheme="http://song921012.github.io/tags/Arcgis/"/>
+    
+      <category term="时空数据分析" scheme="http://song921012.github.io/tags/%E6%97%B6%E7%A9%BA%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Latex教程</title>
+    <link href="http://song921012.github.io/2020/08/03/latex/"/>
+    <id>http://song921012.github.io/2020/08/03/latex/</id>
+    <published>2020-08-03T01:25:00.000Z</published>
+    <updated>2020-08-03T01:57:01.274Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;魔法注释&quot;&gt;&lt;a href=&quot;#魔法注释&quot; class=&quot;headerlink&quot; title=&quot;魔法注释&quot;&gt;&lt;/a&gt;魔法注释&lt;/h1&gt;&lt;p&gt;% !TEX root = ./main.tex&lt;br&gt;% !TEX program = xelatex&lt;br&gt;%
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="展示" scheme="http://song921012.github.io/tags/%E5%B1%95%E7%A4%BA/"/>
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -63,53 +119,6 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://song921012.github.io/2020/08/02/python%20%E9%85%8D%E7%BD%AE/"/>
-    <id>http://song921012.github.io/2020/08/02/python%20%E9%85%8D%E7%BD%AE/</id>
-    <published>2020-08-02T12:34:20.070Z</published>
-    <updated>2020-06-21T02:23:48.790Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;anaconda-安装&quot;&gt;&lt;a href=&quot;#anaconda-安装&quot; class=&quot;headerlink&quot; title=&quot;anaconda 安装&quot;&gt;&lt;/a&gt;anaconda 安装&lt;/h1&gt;&lt;p&gt;查教程&lt;/p&gt;
-&lt;h1 id=&quot;anaconda-配置&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://song921012.github.io/2020/08/02/latex/"/>
-    <id>http://song921012.github.io/2020/08/02/latex/</id>
-    <published>2020-08-02T12:34:20.060Z</published>
-    <updated>2020-06-28T02:13:00.547Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;魔法注释&quot;&gt;&lt;a href=&quot;#魔法注释&quot; class=&quot;headerlink&quot; title=&quot;魔法注释&quot;&gt;&lt;/a&gt;魔法注释&lt;/h1&gt;&lt;p&gt;% !TEX root = ./main.tex&lt;br&gt;% !TEX program = xelatex&lt;br&gt;%
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://song921012.github.io/2020/08/02/hello-world/"/>
     <id>http://song921012.github.io/2020/08/02/hello-world/</id>
@@ -129,6 +138,61 @@
     </summary>
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>Vscode教程</title>
+    <link href="http://song921012.github.io/2020/08/02/vscode/"/>
+    <id>http://song921012.github.io/2020/08/02/vscode/</id>
+    <published>2020-08-02T10:25:00.000Z</published>
+    <updated>2020-08-03T02:04:20.148Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;软件学习&quot;&gt;&lt;a href=&quot;#软件学习&quot; class=&quot;headerlink&quot; title=&quot;软件学习&quot;&gt;&lt;/a&gt;软件学习&lt;/h1&gt;&lt;h2 id=&quot;1-数据结构&quot;&gt;&lt;a href=&quot;#1-数据结构&quot; class=&quot;headerlink&quot; title=&quot;1.
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Vscode" scheme="http://song921012.github.io/tags/Vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Matlab教程</title>
+    <link href="http://song921012.github.io/2020/08/02/matlab%E6%8F%92%E4%BB%B6/"/>
+    <id>http://song921012.github.io/2020/08/02/matlab%E6%8F%92%E4%BB%B6/</id>
+    <published>2020-08-02T05:25:00.000Z</published>
+    <updated>2020-08-03T02:03:13.791Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Matlab-插件&quot;&gt;&lt;a href=&quot;#Matlab-插件&quot; class=&quot;headerlink&quot; title=&quot;Matlab 插件&quot;&gt;&lt;/a&gt;Matlab 插件&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;Plotpub&lt;br&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Matlab" scheme="http://song921012.github.io/tags/Matlab/"/>
     
   </entry>
   
@@ -160,11 +224,11 @@
   </entry>
   
   <entry>
-    <title>Matlab插件教程</title>
-    <link href="http://song921012.github.io/2020/06/17/matlab%E6%8F%92%E4%BB%B6/"/>
-    <id>http://song921012.github.io/2020/06/17/matlab%E6%8F%92%E4%BB%B6/</id>
-    <published>2020-06-17T13:12:57.000Z</published>
-    <updated>2020-08-02T12:46:06.768Z</updated>
+    <title>电脑配置步骤</title>
+    <link href="http://song921012.github.io/2020/08/02/%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE/"/>
+    <id>http://song921012.github.io/2020/08/02/%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE/</id>
+    <published>2020-08-02T01:25:00.000Z</published>
+    <updated>2020-08-03T02:02:00.706Z</updated>
     
     <summary type="html">
     
@@ -172,18 +236,44 @@
       
         
         
-          &lt;h1 id=&quot;Matlab-插件&quot;&gt;&lt;a href=&quot;#Matlab-插件&quot; class=&quot;headerlink&quot; title=&quot;Matlab 插件&quot;&gt;&lt;/a&gt;Matlab 插件&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;Plotpub&lt;br&gt;&lt;a
+          &lt;h1 id=&quot;电脑软件&quot;&gt;&lt;a href=&quot;#电脑软件&quot; class=&quot;headerlink&quot; title=&quot;电脑软件&quot;&gt;&lt;/a&gt;电脑软件&lt;/h1&gt;&lt;h2 id=&quot;基本软件&quot;&gt;&lt;a href=&quot;#基本软件&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
-      <category term="数据可视化" scheme="http://song921012.github.io/categories/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/"/>
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="Matlab" scheme="http://song921012.github.io/categories/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/Matlab/"/>
     
+      <category term="电脑" scheme="http://song921012.github.io/tags/%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客文章分类及标签</title>
+    <link href="http://song921012.github.io/2020/08/01/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/"/>
+    <id>http://song921012.github.io/2020/08/01/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/</id>
+    <published>2020-08-01T03:25:00.000Z</published>
+    <updated>2020-08-03T02:02:52.327Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;分类&quot;&gt;&lt;a href=&quot;#分类&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="自娱自乐" scheme="http://song921012.github.io/categories/%E8%87%AA%E5%A8%B1%E8%87%AA%E4%B9%90/"/>
+    
+    
+      <category term="展示" scheme="http://song921012.github.io/tags/%E5%B1%95%E7%A4%BA/"/>
     
   </entry>
   
@@ -201,87 +291,6 @@
         
         
           &lt;h1 id=&quot;初始全局配置&quot;&gt;&lt;a href=&quot;#初始全局配置&quot; class=&quot;headerlink&quot; title=&quot;初始全局配置&quot;&gt;&lt;/a&gt;初始全局配置&lt;/h1&gt;&lt;p&gt;git config –global user.name “Song921012”&lt;br&gt;git
-        
-      
-    
-    </summary>
-    
-    
-      <category term="展示" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/"/>
-    
-      <category term="博客" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Arcgis教程</title>
-    <link href="http://song921012.github.io/2020/05/29/Arcgis%E6%93%8D%E4%BD%9C/"/>
-    <id>http://song921012.github.io/2020/05/29/Arcgis%E6%93%8D%E4%BD%9C/</id>
-    <published>2020-05-29T04:12:57.000Z</published>
-    <updated>2020-06-04T06:32:46.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;地图数据获取和整理&quot;&gt;&lt;a href=&quot;#地图数据获取和整理&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="空间数据分析" scheme="http://song921012.github.io/categories/%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
-    
-      <category term="Arcgis" scheme="http://song921012.github.io/categories/%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/Arcgis/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>VScode教程</title>
-    <link href="http://song921012.github.io/2020/05/29/vscode/"/>
-    <id>http://song921012.github.io/2020/05/29/vscode/</id>
-    <published>2020-05-29T04:12:57.000Z</published>
-    <updated>2020-06-27T09:21:02.520Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;软件学习&quot;&gt;&lt;a href=&quot;#软件学习&quot; class=&quot;headerlink&quot; title=&quot;软件学习&quot;&gt;&lt;/a&gt;软件学习&lt;/h1&gt;&lt;h2 id=&quot;1-数据结构&quot;&gt;&lt;a href=&quot;#1-数据结构&quot; class=&quot;headerlink&quot; title=&quot;1.
-        
-      
-    
-    </summary>
-    
-    
-      <category term="展示" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/"/>
-    
-      <category term="博客" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>电脑和浏览器配置教程</title>
-    <link href="http://song921012.github.io/2020/05/29/%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE/"/>
-    <id>http://song921012.github.io/2020/05/29/%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE/</id>
-    <published>2020-05-29T04:12:57.000Z</published>
-    <updated>2020-06-20T15:13:52.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;电脑软件&quot;&gt;&lt;a href=&quot;#电脑软件&quot; class=&quot;headerlink&quot; title=&quot;电脑软件&quot;&gt;&lt;/a&gt;电脑软件&lt;/h1&gt;&lt;h2 id=&quot;基本软件&quot;&gt;&lt;a href=&quot;#基本软件&quot; class=&quot;headerlink&quot;
         
       
     

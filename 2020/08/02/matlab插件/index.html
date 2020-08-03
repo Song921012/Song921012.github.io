@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Arcgis教程, Mathematics; Epidemiology; Data mining">
+    <meta name="keywords" content="Matlab教程, Mathematics; Epidemiology; Data mining">
     <meta name="description" content="Multiscale modeliing of infectious disease; sptial-temporal epidemiological data analysis">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Arcgis教程 | Pengfei&#39;s MathBio Blog</title>
+    <title>Matlab教程 | Pengfei&#39;s MathBio Blog</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -314,7 +314,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Arcgis教程</h1>
+                    <h1 class="description center-align post-title">Matlab教程</h1>
                 </div>
             </div>
         </div>
@@ -429,9 +429,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Matlab/">
+                                <span class="chip bg-color">Matlab</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -439,12 +443,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" class="post-category">
-                                空间数据分析
-                            </a>
-                        
-                            <a href="/categories/%E7%A9%BA%E9%97%B4%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/Arcgis/" class="post-category">
-                                Arcgis
+                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                软件学习
                             </a>
                         
                     </div>
@@ -456,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-29
+                    2020-08-02
                 </div>
                 
 
@@ -465,7 +465,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    811
+                    71
                 </div>
                 
 
@@ -477,61 +477,11 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="地图数据获取和整理"><a href="#地图数据获取和整理" class="headerlink" title="地图数据获取和整理"></a>地图数据获取和整理</h1><p>Mapzen</p>
-<p>osm</p>
-<p>POI很重要</p>
-<p>worldpop</p>
-<p>天气数据</p>
-<h1 id="Arcgis-基本操作"><a href="#Arcgis-基本操作" class="headerlink" title="Arcgis 基本操作"></a>Arcgis 基本操作</h1><h2 id="安装和认识软件界面"><a href="#安装和认识软件界面" class="headerlink" title="安装和认识软件界面"></a>安装和认识软件界面</h2><p>Arcmap： 主要软件，正常状态和编辑状态</p>
-<p>Arc catalog：资源管理器</p>
-<p>Arc administration</p>
-<p>Arc globe: 地球仪</p>
-<p>Arc scene: 三维地图</p>
-<h2 id="数据整理和导入数据"><a href="#数据整理和导入数据" class="headerlink" title="数据整理和导入数据"></a>数据整理和导入数据</h2><h2 id="导出和共享数据"><a href="#导出和共享数据" class="headerlink" title="导出和共享数据"></a>导出和共享数据</h2><h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><p>地图缩放扩大移动，正向反向搜索，按顺序打开图层</p>
-<p>查看地图属性</p>
-<h2 id="寻求帮助（项目实战最快）"><a href="#寻求帮助（项目实战最快）" class="headerlink" title="寻求帮助（项目实战最快）"></a>寻求帮助（项目实战最快）</h2><p><a target="_blank" rel="noopener" href="https://gis.stackexchange.com/" title="gis社区">常见问题查询</a></p>
-<p>Esri竞赛项目</p>
-<h1 id="Arcgis-文件属性"><a href="#Arcgis-文件属性" class="headerlink" title="Arcgis 文件属性"></a>Arcgis 文件属性</h1><p>mxd: arcgis的地图文件（需要和数据文件配套）</p>
-<p>gdb: arcgis的数据源文件</p>
-<p>dbf: 数据库</p>
-<p>mpk: arccgis的图层和数据文件打包</p>
-<p>shp: 图层矢量数据文件</p>
-<p>csv/xls/xlsx: 图层 XY数据</p>
-<p>dwg/dxf:图层文件</p>
-<p>jpg/png/tif: 栅格数据文件</p>
-<h1 id="Arcgis-数据属性操作-（GIS中的EXCEL）"><a href="#Arcgis-数据属性操作-（GIS中的EXCEL）" class="headerlink" title="Arcgis 数据属性操作 （GIS中的EXCEL）"></a>Arcgis 数据属性操作 （GIS中的EXCEL）</h1><p>秘诀：多用右击</p>
-<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>字段（columns）和记录(index)<br>类似excel操作<br>记录可能是点，线，面</p>
-<h2 id="选择数据，属性表操作"><a href="#选择数据，属性表操作" class="headerlink" title="选择数据，属性表操作"></a>选择数据，属性表操作</h2><ol>
-<li><p>属性表选择： </p>
-<p>ctrl/shift左键，闪烁，缩放至。 </p>
-<p>清除选择</p>
-<p>取消选择，查看选择</p>
-<p>关闭删除字段</p>
-<p>字段属性操作</p>
-</li>
-<li><p>属性操作：</p>
-<p>按照属性选择： 文字like,数字等于</p>
-</li>
-<li><p>框选：按多边形，按线，按圆</p>
-<p>导出数据shp,有全国导出某个特定省</p>
-</li>
+                <h1 id="Matlab-插件"><a href="#Matlab-插件" class="headerlink" title="Matlab 插件"></a>Matlab 插件</h1><ol>
+<li>Plotpub<br><a target="_blank" rel="noopener" href="https://github.com/masumhabib/PlotPub">https://github.com/masumhabib/PlotPub</a></li>
+<li>Gramm<br><a target="_blank" rel="noopener" href="https://github.com/piermorel/gramm">https://github.com/piermorel/gramm</a><br>matlab中的ggplot2</li>
+<li>m_map画地图</li>
 </ol>
-<h2 id="关联连接"><a href="#关联连接" class="headerlink" title="关联连接"></a>关联连接</h2><ol>
-<li><p>整理数据</p>
-</li>
-<li><p>连接数据：</p>
-<p>连接</p>
-<p>导出永久保存</p>
-</li>
-</ol>
-<h2 id="字段操作（配合数据选取和python更佳）"><a href="#字段操作（配合数据选取和python更佳）" class="headerlink" title="字段操作（配合数据选取和python更佳）"></a>字段操作（配合数据选取和python更佳）</h2><p>字段删除关闭</p>
-<p>字段计算器和计算几何</p>
-<p>编辑器工具条编辑：记得保存编辑</p>
-<p>复习：打开、浏览、查询，插入数据，数据库概念<br>属性表介绍：字段与记录，浏览，缩放，宽度调整<br>进阶浏览：字段移动与恢复，排列，冻结，显示格式<br>字段显示：开关，别名设置与开关，高亮<br>多个属性表：开关，切换，排列<br>选择：取消，切换，全部记录与已选记录，导出部分数据<br>高级属性选择：数字、文字，<br>数据表统计、汇总<br>导出：数据库，excel<br>外部数据：导入、连接、导出<br>字段操作：删除，添加<br>记录操作：修改，字段计算器，计算几何</p>
-<p>课后练习：<br>1.在行政边界数据中提取出自己感兴趣地区，看看这些属性表里都有哪些信息。调整显示的方式，关闭不必要的字段，使浏览最便捷。</p>
-<p>2.在统计年鉴数据中整理出对应地区的数据，与地图进行连接，并导出一个新的文件。</p>
-<p>3.分析一下自己去过哪些地方。新建一个字段，叫做“我去过”，记录为“是”/“否”。记得利用批量选择和字段计算器。</p>
-<p>4.分析一下自己在哪里生活的时间最长。新建一个字段，叫做“我生活的时间”，记录为整数，表示生活了多少年。利用统计工具看看在哪里生活的时间最长。</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -565,7 +515,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">Pengfei Song</a>
+                    <a href="/about" rel="external nofollow noreferrer">Song Pengfei</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -575,7 +525,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://song921012.github.io/2020/05/29/Arcgis%E6%93%8D%E4%BD%9C/">http://song921012.github.io/2020/05/29/Arcgis%E6%93%8D%E4%BD%9C/</a>
+                    <a href="http://song921012.github.io/2020/08/02/matlab%E6%8F%92%E4%BB%B6/">http://song921012.github.io/2020/08/02/matlab%E6%8F%92%E4%BB%B6/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -588,7 +538,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">Pengfei Song</a>
+                    <a href="/about" target="_blank">Song Pengfei</a>
                     !
                 </span>
             </div>
@@ -612,7 +562,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Matlab/">
+                                    <span class="chip bg-color">Matlab</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -781,7 +735,7 @@
         repo: '',
         owner: '',
         admin: null,
-        id: '2020-05-29T12-12-57',
+        id: '2020-08-02T13-25-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -805,7 +759,7 @@
 <script src="/libs/gitment/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-    id: 'Fri May 29 2020 12:12:57 GMT+0800',
+    id: 'Sun Aug 02 2020 13:25:00 GMT+0800',
     owner: '',
     repo: '',
     oauth: {
@@ -830,9 +784,9 @@ gitment.render('gitment-content');
 
 <script type="text/javascript">
     disqus_config = function () {
-        this.page.url = 'http://song921012.github.io/2020/05/29/Arcgis%E6%93%8D%E4%BD%9C/';
-        this.page.identifier = '/2020/05/29/Arcgis%E6%93%8D%E4%BD%9C/';
-        this.page.title = 'Arcgis教程';
+        this.page.url = 'http://song921012.github.io/2020/08/02/matlab%E6%8F%92%E4%BB%B6/';
+        this.page.identifier = '/2020/08/02/matlab%E6%8F%92%E4%BB%B6/';
+        this.page.title = 'Matlab教程';
     };
     let disqus_shortname = '';
 
@@ -884,40 +838,44 @@ gitment.render('gitment-content');
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/30/git%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE/">
+                <a href="/2020/08/02/vscode/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Git小白配置">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Vscode教程">
                         
-                        <span class="card-title">Git小白配置</span>
+                        <span class="card-title">Vscode教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            初始全局配置git config –global user.name “Song921012”git config –global user.email “aidishage@gmail.com“ssh-keygen -t rsa -C “
+                            Vscode自学笔记
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-30
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-08-02
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B1%95%E7%A4%BA/" class="post-category">
-                                    展示
-                                </a>
-                            
-                            <a href="/categories/%E5%B1%95%E7%A4%BA/%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    博客
+                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    软件学习
                                 </a>
                             
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Vscode/">
+                        <span class="chip bg-color">Vscode</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -929,46 +887,61 @@ gitment.render('gitment-content');
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/29/vscode/">
+                <a href="/2020/08/02/%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AD%A6%E4%B9%A0/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="VScode教程">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="软件学习总纲">
                         
-                        <span class="card-title">VScode教程</span>
+                        <span class="card-title">软件学习总纲</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            软件学习1. 数据结构2. 快捷键键盘快捷方式Ctrl+shift+P 命令盘Ctrl+R 最近打开文件
-用户代码片段
+                            软件学习总纲
+功能性
+
+模块性
+
+集成开发性
+
+用户友好性
+
+安全性
+安装破解，社区支持
+安装破解
+
+主要界面认识
+
+汉化、背景、设置
+文件路径
+
+Help和社区支持
+数据结构算法操作体验
 代码高亮
-代码格式
+
 代码补全
-函数跳转
-函数提示
-帮助文档
-插件基本
-汉化
-拼写spellright
-缩进indent 
+
+用户代码片段
+
+代码格式检
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-02
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B1%95%E7%A4%BA/" class="post-category">
-                                    展示
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/" class="post-category">
+                                    数据挖掘
                                 </a>
                             
-                            <a href="/categories/%E5%B1%95%E7%A4%BA/%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    博客
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/%E8%BD%AF%E4%BB%B6/" class="post-category">
+                                    软件
                                 </a>
                             
                             
