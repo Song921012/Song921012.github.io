@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Git教程, Hexo">
-    <meta name="description" content="">
+    <meta name="keywords" content="Git教程, Mathematics; Epidemiology; Data mining">
+    <meta name="description" content="Multiscale modeliing of infectious disease; sptial-temporal epidemiological data analysis">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Git教程 | Hexo</title>
+    <title>Git教程 | Pengfei&#39;s MathBio Blog</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -41,7 +41,7 @@
                     
                     <img src="/medias/logo.jpg" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">Hexo</span>
+                    <span class="logo-span">Pengfei&#39;s MathBio Blog</span>
                 </a>
             </div>
             
@@ -140,10 +140,10 @@
         
         <img src="/medias/logo.jpg" class="logo-img circle responsive-img">
         
-        <div class="logo-name">Hexo</div>
+        <div class="logo-name">Pengfei&#39;s MathBio Blog</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            Multiscale modeliing of infectious disease; sptial-temporal epidemiological data analysis
             
         </div>
     </div>
@@ -460,12 +460,12 @@
                 
 
                 
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-21
-                </div>
-                
 
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    3.8k
+                </div>
                 
 
                 
@@ -598,7 +598,7 @@
    tutorial-2          A tutorial introduction to Git: part two
    workflows           An overview of recommended workflows with Git
 
-&#39;git help -a&#39; and &#39;git help -g&#39; list available subcommands and some concept guides. See &#39;git help &lt;command&gt;&#39; or &#39;git help &lt;concept&gt;&#39; to read about a specific subcommand or concept.</code></pre>
+'git help -a' and 'git help -g' list available subcommands and some concept guides. See 'git help &lt;command&gt;' or 'git help &lt;concept&gt;' to read about a specific subcommand or concept.</code></pre>
 <h2 id="回到远程仓库的状态"><a href="#回到远程仓库的状态" class="headerlink" title="回到远程仓库的状态"></a>回到远程仓库的状态</h2><p>抛弃本地所有的修改，回到远程仓库的状态。</p>
 <pre class=" language-sh"><code class="language-sh">git fetch --all && git reset --hard origin/master</code></pre>
 <h2 id="重设第一个-commit"><a href="#重设第一个-commit" class="headerlink" title="重设第一个 commit"></a>重设第一个 commit</h2><p>也就是把所有的改动都重新放回工作区，并<strong>清空所有的 commit</strong>，这样就可以重新提交第一个 commit 了</p>
@@ -660,7 +660,7 @@ git checkout <deleting_commit>^ -- <file_path> #回到删除文件 deleting_comm
 
 git reset  -- mixed HEAD^  #回退至上个版本，它将重置HEAD到另外一个commit,并且重置暂存区以便和HEAD相匹配，但是也到此为止。工作区不会被更改。
 
-git reset -- soft HEAD~3  #回退至三个版本之前，只回退了commit的信息，暂存区和工作区与回退之前保持一致。如果还要提交，直接commit即可  
+git reset -- soft HEAD~3  #回退至三个版本之前，只回退了commit的信息，暂存区和工作区与回退之前保持一致。如果还要提交，直接commit即可 &nbsp;
 
 git reset -- hard <commit-id>  #彻底回退到指定commit-id的状态，暂存区和工作区也会变为指定commit-id版本的内容</code></pre>
 <h2 id="修改上一个-commit-的描述"><a href="#修改上一个-commit-的描述" class="headerlink" title="修改上一个 commit 的描述"></a>修改上一个 commit 的描述</h2><p>如果暂存区有改动，同时也会将暂存区的改动提交到上一个 commit</p>
@@ -781,7 +781,25 @@ echo '&#123; "path": "cz-conventional-changelog" &#125;' > ~/.czrc</code></pre>
 <li>或者直接提 Pr，Issues</li>
 </ul>
 <p><strong><a href="#%E7%9B%AE%E5%BD%95">⬆ 返回顶部</a></strong></p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -1322,6 +1340,9 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">8.3k</span>&nbsp;字
             
             
             
