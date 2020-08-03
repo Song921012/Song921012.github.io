@@ -73,11 +73,11 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://song921012.github.io/2020/08/02/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/"/>
-    <id>http://song921012.github.io/2020/08/02/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97/</id>
-    <published>2020-08-02T12:34:20.090Z</published>
-    <updated>2020-07-02T06:35:54.768Z</updated>
+    <title>Git和vscode配置</title>
+    <link href="http://song921012.github.io/2020/08/02/git%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE/"/>
+    <id>http://song921012.github.io/2020/08/02/git%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE/</id>
+    <published>2020-08-02T13:25:00.000Z</published>
+    <updated>2020-08-03T02:10:23.481Z</updated>
     
     <summary type="html">
     
@@ -85,45 +85,28 @@
       
         
         
-          &lt;h1 id=&quot;文本处理&quot;&gt;&lt;a href=&quot;#文本处理&quot; class=&quot;headerlink&quot; title=&quot;文本处理&quot;&gt;&lt;/a&gt;文本处理&lt;/h1&gt;&lt;h2 id=&quot;主要手段&quot;&gt;&lt;a href=&quot;#主要手段&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;初始全局配置&quot;&gt;&lt;a href=&quot;#初始全局配置&quot; class=&quot;headerlink&quot; title=&quot;初始全局配置&quot;&gt;&lt;/a&gt;初始全局配置&lt;/h1&gt;&lt;p&gt;git config –global user.name “Song921012”&lt;br&gt;git
         
       
     
     </summary>
     
     
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Github" scheme="http://song921012.github.io/tags/Github/"/>
+    
+      <category term="Vscode" scheme="http://song921012.github.io/tags/Vscode/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://song921012.github.io/2020/08/02/%E6%9C%B4%E7%B4%A0%E6%95%B0%E6%8D%AE%E8%A7%82/"/>
-    <id>http://song921012.github.io/2020/08/02/%E6%9C%B4%E7%B4%A0%E6%95%B0%E6%8D%AE%E8%A7%82/</id>
-    <published>2020-08-02T12:34:20.083Z</published>
-    <updated>2020-07-31T01:03:05.511Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;1-朴素数据观的核心-问题&quot;&gt;&lt;a href=&quot;#1-朴素数据观的核心-问题&quot; class=&quot;headerlink&quot; title=&quot;1 朴素数据观的核心: 问题&quot;&gt;&lt;/a&gt;1 朴素数据观的核心: 问题&lt;/h1&gt;&lt;h2 id=&quot;1-1-到底想做什么&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
+    <title>Hexo配置</title>
     <link href="http://song921012.github.io/2020/08/02/hello-world/"/>
     <id>http://song921012.github.io/2020/08/02/hello-world/</id>
-    <published>2020-08-02T11:26:08.104Z</published>
-    <updated>2020-05-08T14:40:28.000Z</updated>
+    <published>2020-08-02T11:45:00.000Z</published>
+    <updated>2020-08-03T02:11:50.163Z</updated>
     
     <summary type="html">
     
@@ -138,6 +121,37 @@
     </summary>
     
     
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="展示" scheme="http://song921012.github.io/tags/%E5%B1%95%E7%A4%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git教程</title>
+    <link href="http://song921012.github.io/2020/08/02/git%E6%95%99%E7%A8%8B/"/>
+    <id>http://song921012.github.io/2020/08/02/git%E6%95%99%E7%A8%8B/</id>
+    <published>2020-08-02T11:25:00.000Z</published>
+    <updated>2020-08-03T02:10:40.724Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Git的奇技淫巧-see-no-evil&quot;&gt;&lt;a href=&quot;#Git的奇技淫巧-see-no-evil&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Github" scheme="http://song921012.github.io/tags/Github/"/>
     
   </entry>
   
@@ -165,6 +179,35 @@
     
     
       <category term="Vscode" scheme="http://song921012.github.io/tags/Vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cmd和markdown教程</title>
+    <link href="http://song921012.github.io/2020/08/02/cmd%20commands/"/>
+    <id>http://song921012.github.io/2020/08/02/cmd%20commands/</id>
+    <published>2020-08-02T09:25:00.000Z</published>
+    <updated>2020-08-03T02:19:35.056Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;cmd-和-markdown常用操作&quot;&gt;&lt;a href=&quot;#cmd-和-markdown常用操作&quot; class=&quot;headerlink&quot; title=&quot;cmd 和 markdown常用操作&quot;&gt;&lt;/a&gt;cmd 和 markdown常用操作&lt;/h1&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="电脑" scheme="http://song921012.github.io/tags/%E7%94%B5%E8%84%91/"/>
+    
+      <category term="Markdown" scheme="http://song921012.github.io/tags/Markdown/"/>
     
   </entry>
   
@@ -197,33 +240,6 @@
   </entry>
   
   <entry>
-    <title>软件学习总纲</title>
-    <link href="http://song921012.github.io/2020/08/02/%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://song921012.github.io/2020/08/02/%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AD%A6%E4%B9%A0/</id>
-    <published>2020-08-02T04:12:57.000Z</published>
-    <updated>2020-08-02T12:46:11.027Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;软件学习总纲&quot;&gt;&lt;a href=&quot;#软件学习总纲&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="数据挖掘" scheme="http://song921012.github.io/categories/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
-    
-      <category term="软件" scheme="http://song921012.github.io/categories/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>电脑配置步骤</title>
     <link href="http://song921012.github.io/2020/08/02/%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE/"/>
     <id>http://song921012.github.io/2020/08/02/%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE/</id>
@@ -251,11 +267,73 @@
   </entry>
   
   <entry>
+    <title>概率论与数理统计</title>
+    <link href="http://song921012.github.io/2020/08/01/%E7%BB%9F%E8%AE%A1/"/>
+    <id>http://song921012.github.io/2020/08/01/%E7%BB%9F%E8%AE%A1/</id>
+    <published>2020-08-01T04:21:00.000Z</published>
+    <updated>2020-08-03T02:18:32.297Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;第一章-随机事件与概率&quot;&gt;&lt;a href=&quot;#第一章-随机事件与概率&quot; class=&quot;headerlink&quot; title=&quot;第一章 随机事件与概率&quot;&gt;&lt;/a&gt;第一章 随机事件与概率&lt;/h1&gt;&lt;h2 id=&quot;事件域与空间预备&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="http://song921012.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="统计" scheme="http://song921012.github.io/tags/%E7%BB%9F%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>朴素数据观</title>
+    <link href="http://song921012.github.io/2020/08/01/%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://song921012.github.io/2020/08/01/%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-08-01T03:29:00.000Z</published>
+    <updated>2020-08-03T02:17:21.159Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;软件学习总纲&quot;&gt;&lt;a href=&quot;#软件学习总纲&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="自娱自乐" scheme="http://song921012.github.io/categories/%E8%87%AA%E5%A8%B1%E8%87%AA%E4%B9%90/"/>
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%87%AA%E5%A8%B1%E8%87%AA%E4%B9%90/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Arcgis" scheme="http://song921012.github.io/tags/Arcgis/"/>
+    
+      <category term="Matlab" scheme="http://song921012.github.io/tags/Matlab/"/>
+    
+      <category term="Python" scheme="http://song921012.github.io/tags/Python/"/>
+    
+      <category term="R" scheme="http://song921012.github.io/tags/R/"/>
+    
+  </entry>
+  
+  <entry>
     <title>博客文章分类及标签</title>
     <link href="http://song921012.github.io/2020/08/01/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/"/>
     <id>http://song921012.github.io/2020/08/01/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/</id>
     <published>2020-08-01T03:25:00.000Z</published>
-    <updated>2020-08-03T02:02:52.327Z</updated>
+    <updated>2020-08-03T02:17:07.979Z</updated>
     
     <summary type="html">
     
@@ -278,11 +356,11 @@
   </entry>
   
   <entry>
-    <title>Git小白配置</title>
-    <link href="http://song921012.github.io/2020/05/30/git%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE/"/>
-    <id>http://song921012.github.io/2020/05/30/git%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE/</id>
-    <published>2020-05-30T04:12:57.000Z</published>
-    <updated>2020-08-02T12:48:27.701Z</updated>
+    <title>朴素数据观</title>
+    <link href="http://song921012.github.io/2020/08/01/%E6%9C%B4%E7%B4%A0%E6%95%B0%E6%8D%AE%E8%A7%82/"/>
+    <id>http://song921012.github.io/2020/08/01/%E6%9C%B4%E7%B4%A0%E6%95%B0%E6%8D%AE%E8%A7%82/</id>
+    <published>2020-08-01T03:20:00.000Z</published>
+    <updated>2020-08-03T02:14:47.801Z</updated>
     
     <summary type="html">
     
@@ -290,100 +368,19 @@
       
         
         
-          &lt;h1 id=&quot;初始全局配置&quot;&gt;&lt;a href=&quot;#初始全局配置&quot; class=&quot;headerlink&quot; title=&quot;初始全局配置&quot;&gt;&lt;/a&gt;初始全局配置&lt;/h1&gt;&lt;p&gt;git config –global user.name “Song921012”&lt;br&gt;git
+          &lt;h1 id=&quot;1-朴素数据观的核心-问题&quot;&gt;&lt;a href=&quot;#1-朴素数据观的核心-问题&quot; class=&quot;headerlink&quot; title=&quot;1 朴素数据观的核心: 问题&quot;&gt;&lt;/a&gt;1 朴素数据观的核心: 问题&lt;/h1&gt;&lt;h2 id=&quot;1-1-到底想做什么&quot;&gt;&lt;a
         
       
     
     </summary>
     
     
-      <category term="展示" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/"/>
+      <category term="时空数据分析" scheme="http://song921012.github.io/categories/%E6%97%B6%E7%A9%BA%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
-      <category term="博客" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>cmd 和 markdown常用操作</title>
-    <link href="http://song921012.github.io/2020/05/12/cmd%20commands/"/>
-    <id>http://song921012.github.io/2020/05/12/cmd%20commands/</id>
-    <published>2020-05-12T04:12:57.000Z</published>
-    <updated>2020-05-12T14:04:00.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;cmd-和-markdown常用操作&quot;&gt;&lt;a href=&quot;#cmd-和-markdown常用操作&quot; class=&quot;headerlink&quot; title=&quot;cmd 和 markdown常用操作&quot;&gt;&lt;/a&gt;cmd 和 markdown常用操作&lt;/h1&gt;&lt;h2
-        
-      
-    
-    </summary>
+      <category term="机器学习" scheme="http://song921012.github.io/categories/%E6%97%B6%E7%A9%BA%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
-      <category term="展示" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/"/>
-    
-      <category term="博客" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>概率论与数理统计</title>
-    <link href="http://song921012.github.io/2020/05/12/%E7%BB%9F%E8%AE%A1/"/>
-    <id>http://song921012.github.io/2020/05/12/%E7%BB%9F%E8%AE%A1/</id>
-    <published>2020-05-12T04:12:57.000Z</published>
-    <updated>2020-06-24T15:38:09.848Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;第一章-随机事件与概率&quot;&gt;&lt;a href=&quot;#第一章-随机事件与概率&quot; class=&quot;headerlink&quot; title=&quot;第一章 随机事件与概率&quot;&gt;&lt;/a&gt;第一章 随机事件与概率&lt;/h1&gt;&lt;h2 id=&quot;事件域与空间预备&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="挖掘" scheme="http://song921012.github.io/categories/%E6%8C%96%E6%8E%98/"/>
-    
-      <category term="统计" scheme="http://song921012.github.io/categories/%E6%8C%96%E6%8E%98/%E7%BB%9F%E8%AE%A1/"/>
-    
-    
-      <category term="统计" scheme="http://song921012.github.io/tags/%E7%BB%9F%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git教程</title>
-    <link href="http://song921012.github.io/2020/05/12/git%E6%95%99%E7%A8%8B/"/>
-    <id>http://song921012.github.io/2020/05/12/git%E6%95%99%E7%A8%8B/</id>
-    <published>2020-05-12T04:12:57.000Z</published>
-    <updated>2020-06-21T02:02:03.304Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Git的奇技淫巧-see-no-evil&quot;&gt;&lt;a href=&quot;#Git的奇技淫巧-see-no-evil&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="展示" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/"/>
-    
-      <category term="博客" scheme="http://song921012.github.io/categories/%E5%B1%95%E7%A4%BA/%E5%8D%9A%E5%AE%A2/"/>
-    
+      <category term="数据" scheme="http://song921012.github.io/tags/%E6%95%B0%E6%8D%AE/"/>
     
   </entry>
   
