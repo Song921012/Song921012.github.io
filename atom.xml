@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://song921012.github.io/"/>
-  <updated>2021-01-25T12:48:28.317Z</updated>
+  <updated>2021-02-02T09:22:42.500Z</updated>
   <id>http://song921012.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Latex支持中文</title>
+    <link href="http://song921012.github.io/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/"/>
+    <id>http://song921012.github.io/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</id>
+    <published>2021-02-02T09:10:00.000Z</published>
+    <updated>2021-02-02T09:22:42.500Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;第一种方法-最新&quot;&gt;&lt;a href=&quot;#第一种方法-最新&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Latex" scheme="http://song921012.github.io/tags/Latex/"/>
+    
+  </entry>
   
   <entry>
     <title>Jupyter Notebook操作笔记</title>

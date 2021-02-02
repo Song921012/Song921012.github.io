@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo配置, Mathematics; Epidemiology; Data mining">
+    <meta name="keywords" content="Latex支持中文, Mathematics; Epidemiology; Data mining">
     <meta name="description" content="Multiscale modeliing of infectious disease; sptial-temporal epidemiological data analysis">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo配置 | Pengfei&#39;s MathBio Blog</title>
+    <title>Latex支持中文 | Pengfei&#39;s MathBio Blog</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -309,12 +309,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo配置</h1>
+                    <h1 class="description center-align post-title">Latex支持中文</h1>
                 </div>
             </div>
         </div>
@@ -431,8 +431,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%B1%95%E7%A4%BA/">
-                                <span class="chip bg-color">展示</span>
+                            <a href="/tags/Latex/">
+                                <span class="chip bg-color">Latex</span>
                             </a>
                         
                     </div>
@@ -456,7 +456,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-08-02
+                    2021-02-02
                 </div>
                 
 
@@ -465,7 +465,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    127
+                    1.2k
                 </div>
                 
 
@@ -477,15 +477,41 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server hexo s</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="第一种方法-最新"><a href="#第一种方法-最新" class="headerlink" title="第一种方法(最新)"></a>第一种方法(最新)</h1><p>当是使用Latex或pdflatex(默认GBK)时，必须告诉Latex输入文件的编码格式。一般来说，UTF-8是最好的输入编码方式，可以使用下面的方式设置(如果是xeLatex, 默认是utf8编码)</p>
+<p>\usepackage[utf8]{inputenc}</p>
+<p>我们还要指定使用什么样的输出编码方式将字符映射为字体中的字形，对于大部分啦拉丁语系的语言，可使用T1输出编码。使用如下方式设置</p>
+<p>\usepackage[T1]{fontenc}</p>
+<p>但对于其他语言，必须指定特定的编码方式。xeCJK包提供了很好的中文支持，</p>
+<p>\usepackage{xeCJK}</p>
+<p>第一种方法就是xeCJK， 推荐使用</p>
+<h1 id="第二种方法-最新"><a href="#第二种方法-最新" class="headerlink" title="第二种方法(最新)"></a>第二种方法(最新)</h1><p>\documentclass[UTF8]{*}<br>\usepackage{CTEX}</p>
+<h1 id="第三种方法"><a href="#第三种方法" class="headerlink" title="第三种方法"></a>第三种方法</h1><p>\documentclass[UTF8]{ctex*}</p>
+<h1 id="第四种方法"><a href="#第四种方法" class="headerlink" title="第四种方法"></a>第四种方法</h1><p>模板</p>
+<h1 id="国际语言支持"><a href="#国际语言支持" class="headerlink" title="国际语言支持"></a>国际语言支持</h1><p>国际化的语言支持<br>当前有两个可以提供国际化的语言支持，即Polyglossia和Babel。Polyglossia主要和XeTex一起使用，Babel和pdfTex、LuaTex一起使用。这两个包完成下列任务：</p>
+<p>载入语言特定的连词符号模式和其他排版约定<br>设置当前字体的脚本(script)和语言标签(language tags)。<br>不同语言的字体间切换<br>根据语言的约定格式化日期<br>根据语言特定的数字系统，格式化数字<br>Polyglossia<br>当使用XeLatex 和 LuaLatex时，polyglossia提供了国际化支持。使用这个包，可以指定使用的语言和语言特定的选项。例如，文档中包含了美国英语和法语，可以使用下面的设定</p>
+<p>\usepackage{polyglossia}<br>\setdefaultlanguage[variant=american]{english}<br>\setotherlanguage{french}</p>
+<p>Babel<br>当使用latex或pdflatex时，babel包可提供国际化支持。这个包也可以用于LuaLatex和XeLaTex。可以在包参数中指定语言。</p>
+<p>\usepackage[language]{babel}</p>
+<p>这个包应该紧跟在\documentclass ，使后面载入的包能够知道你所所以用的语言。加载babel包时可以指定多种语言</p>
+<p>\usepackage[languageA, languageB]{babel}</p>
+<p>参数列表中的最后一种语言是当前激活的语言。可以使用命令改变当前激活语言</p>
+<p>\selectlanguage{languageA}</p>
+<p>当文档中包含多种语言时，可以使用babel提供的命令方便地在不同语言间切换。babel提供了定义语言名字的方式</p>
+<p>\babeltags{de = german}</p>
+<p>文档可以写为</p>
+<p>text \textde{German text} text<br>\begin{de}<br>German text<br>\end{de}</p>
+<h1 id="使用xeCJK以及字体修改"><a href="#使用xeCJK以及字体修改" class="headerlink" title="使用xeCJK以及字体修改"></a>使用xeCJK以及字体修改</h1><p>xeCJK主要功能包括：</p>
+<ul>
+<li>分别设置CJK和英文字体</li>
+<li>自动忽略中文文字间的空格而保留其他空格，允许在非标点汉字和英文字母间断行</li>
+<li>调整中英文间的空白<br>xeCJK包提供了许多选项，可以在调用宏包时直接设置，也可以使用\xeCJKsetup 设置这些选项。xeCJK内部使用fontspec宏包，在调用xeCJK宏包时，也可以使用fontspec宏包中的选项。</li>
+</ul>
+<p>加载xeCJK包之后，只要设置CJK文字的字体，就可以使用中文了。例如，中文字体要使用SimSun(宋体）。这里，假设系统安装了需要的字体。</p>
+<p>\usepackage{xeCJK}<br>\setCJKmainfont{SimSum}</p>
+<p>使用字体<br>字体族(font families)有很多，如Times, Courier, Helvetica。它们一般可以分为三类：serif, sans serif 和 monospaced。在Latex中，分别用简写rm, sf, tt表示。</p>
+<p>字体族通常包含不同的风格，如斜体(italic)或加粗(bold)。</p>
+<p>\setmainfont{} 设置西文正文默认罗马类字体。在Word中，默认字体通常是”Times New Roman”。<br>setsansfont{} 设置西文默认无衬线字体。一般出现在大标题等显眼的位置。这一部分常见的字体是Helvetica/Arial。<br>\setmonofont{} 设置西文默认等宽字体，一般用于排版程序代码。常见的字体是Courier或者Courier New。<br>xeCJK中提供了相似的三个命令设置对应的中文字体：</p>
+<p>\setCJKmainfont[BoldFont={}, ItalicFont={}]{} 设置中文正文罗马类字体。大部分中文文档使用宋体排版 ，实际上就是Simsun。Linux下可能用文鼎宋体代替。与西文不同的是，这里允许我们指定粗体和斜体使用何种字体代替。之所以有这个区别，是因为中文不使用粗体表示强调，也不使用斜体表示引文或书名号。可指定BoldFont 和 ItalicFont 为某种黑体，Windows 环境下用SimHei，Linux 下用文泉驿正黑避免版权问题。<br>\setCJKsansfont{} 设置中文正文无衬线的CJK字体，影响\sffamily和\textsf的字体。可以设为宋体。<br>setCKJmonofont{} 设置中文正文等宽族的CJK字体，影响\ttfamily和\texttt的字体。可以设为宋体。</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -529,7 +555,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://song921012.github.io/2020/08/02/hello-world/">http://song921012.github.io/2020/08/02/hello-world/</a>
+                    <a href="http://song921012.github.io/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/">http://song921012.github.io/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -567,8 +593,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%B1%95%E7%A4%BA/">
-                                    <span class="chip bg-color">展示</span>
+                                <a href="/tags/Latex/">
+                                    <span class="chip bg-color">Latex</span>
                                 </a>
                             
                         </div>
@@ -739,7 +765,7 @@
         repo: '',
         owner: '',
         admin: null,
-        id: '2020-08-02T19-45-00',
+        id: '2021-02-02T17-10-00',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -763,7 +789,7 @@
 <script src="/libs/gitment/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-    id: 'Sun Aug 02 2020 19:45:00 GMT+0800',
+    id: 'Tue Feb 02 2021 17:10:00 GMT+0800',
     owner: '',
     repo: '',
     oauth: {
@@ -788,9 +814,9 @@ gitment.render('gitment-content');
 
 <script type="text/javascript">
     disqus_config = function () {
-        this.page.url = 'http://song921012.github.io/2020/08/02/hello-world/';
-        this.page.identifier = '/2020/08/02/hello-world/';
-        this.page.title = 'Hexo配置';
+        this.page.url = 'http://song921012.github.io/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/';
+        this.page.identifier = '/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/';
+        this.page.title = 'Latex支持中文';
     };
     let disqus_shortname = '';
 
@@ -838,29 +864,30 @@ gitment.render('gitment-content');
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/08/02/git%E5%B0%8F%E7%99%BD%E9%85%8D%E7%BD%AE/">
+                <a href="/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Git和vscode配置">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Latex支持中文">
                         
-                        <span class="card-title">Git和vscode配置</span>
+                        <span class="card-title">Latex支持中文</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git和vscode
+                            Latex操作
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-08-02
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-02-02
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -873,15 +900,12 @@ gitment.render('gitment-content');
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Github/">
-                        <span class="chip bg-color">Github</span>
-                    </a>
-                    
-                    <a href="/tags/Vscode/">
-                        <span class="chip bg-color">Vscode</span>
+                    <a href="/tags/Latex/">
+                        <span class="chip bg-color">Latex</span>
                     </a>
                     
                 </div>
@@ -895,24 +919,24 @@ gitment.render('gitment-content');
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/08/02/git%E6%95%99%E7%A8%8B/">
+                <a href="/2021/01/25/Jupyter%20Notebook%E7%94%A8%E6%B3%95/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Git教程">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Jupyter Notebook操作笔记">
                         
-                        <span class="card-title">Git教程</span>
+                        <span class="card-title">Jupyter Notebook操作笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git小白教程
+                            Jupyter Notebook一些操作汇总
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-25
                             </span>
                         <span class="publish-author">
                             
@@ -929,8 +953,8 @@ gitment.render('gitment-content');
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Github/">
-                        <span class="chip bg-color">Github</span>
+                    <a href="/tags/Notebook/">
+                        <span class="chip bg-color">Notebook</span>
                     </a>
                     
                 </div>

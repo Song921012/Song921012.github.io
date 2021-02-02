@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Latex支持中文</title>
+      <link href="/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/"/>
+      <url>/2021/02/02/Latex%E6%94%AF%E6%8C%81%E4%B8%AD%E6%96%87%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="第一种方法-最新"><a href="#第一种方法-最新" class="headerlink" title="第一种方法(最新)"></a>第一种方法(最新)</h1><p>当是使用Latex或pdflatex(默认GBK)时，必须告诉Latex输入文件的编码格式。一般来说，UTF-8是最好的输入编码方式，可以使用下面的方式设置(如果是xeLatex, 默认是utf8编码)</p><p>\usepackage[utf8]{inputenc}</p><p>我们还要指定使用什么样的输出编码方式将字符映射为字体中的字形，对于大部分啦拉丁语系的语言，可使用T1输出编码。使用如下方式设置</p><p>\usepackage[T1]{fontenc}</p><p>但对于其他语言，必须指定特定的编码方式。xeCJK包提供了很好的中文支持，</p><p>\usepackage{xeCJK}</p><p>第一种方法就是xeCJK， 推荐使用</p><h1 id="第二种方法-最新"><a href="#第二种方法-最新" class="headerlink" title="第二种方法(最新)"></a>第二种方法(最新)</h1><p>\documentclass[UTF8]{*}<br>\usepackage{CTEX}</p><h1 id="第三种方法"><a href="#第三种方法" class="headerlink" title="第三种方法"></a>第三种方法</h1><p>\documentclass[UTF8]{ctex*}</p><h1 id="第四种方法"><a href="#第四种方法" class="headerlink" title="第四种方法"></a>第四种方法</h1><p>模板</p><h1 id="国际语言支持"><a href="#国际语言支持" class="headerlink" title="国际语言支持"></a>国际语言支持</h1><p>国际化的语言支持<br>当前有两个可以提供国际化的语言支持，即Polyglossia和Babel。Polyglossia主要和XeTex一起使用，Babel和pdfTex、LuaTex一起使用。这两个包完成下列任务：</p><p>载入语言特定的连词符号模式和其他排版约定<br>设置当前字体的脚本(script)和语言标签(language tags)。<br>不同语言的字体间切换<br>根据语言的约定格式化日期<br>根据语言特定的数字系统，格式化数字<br>Polyglossia<br>当使用XeLatex 和 LuaLatex时，polyglossia提供了国际化支持。使用这个包，可以指定使用的语言和语言特定的选项。例如，文档中包含了美国英语和法语，可以使用下面的设定</p><p>\usepackage{polyglossia}<br>\setdefaultlanguage[variant=american]{english}<br>\setotherlanguage{french}</p><p>Babel<br>当使用latex或pdflatex时，babel包可提供国际化支持。这个包也可以用于LuaLatex和XeLaTex。可以在包参数中指定语言。</p><p>\usepackage[language]{babel}</p><p>这个包应该紧跟在\documentclass ，使后面载入的包能够知道你所所以用的语言。加载babel包时可以指定多种语言</p><p>\usepackage[languageA, languageB]{babel}</p><p>参数列表中的最后一种语言是当前激活的语言。可以使用命令改变当前激活语言</p><p>\selectlanguage{languageA}</p><p>当文档中包含多种语言时，可以使用babel提供的命令方便地在不同语言间切换。babel提供了定义语言名字的方式</p><p>\babeltags{de = german}</p><p>文档可以写为</p><p>text \textde{German text} text<br>\begin{de}<br>German text<br>\end{de}</p><h1 id="使用xeCJK以及字体修改"><a href="#使用xeCJK以及字体修改" class="headerlink" title="使用xeCJK以及字体修改"></a>使用xeCJK以及字体修改</h1><p>xeCJK主要功能包括：</p><ul><li>分别设置CJK和英文字体</li><li>自动忽略中文文字间的空格而保留其他空格，允许在非标点汉字和英文字母间断行</li><li>调整中英文间的空白<br>xeCJK包提供了许多选项，可以在调用宏包时直接设置，也可以使用\xeCJKsetup 设置这些选项。xeCJK内部使用fontspec宏包，在调用xeCJK宏包时，也可以使用fontspec宏包中的选项。</li></ul><p>加载xeCJK包之后，只要设置CJK文字的字体，就可以使用中文了。例如，中文字体要使用SimSun(宋体）。这里，假设系统安装了需要的字体。</p><p>\usepackage{xeCJK}<br>\setCJKmainfont{SimSum}</p><p>使用字体<br>字体族(font families)有很多，如Times, Courier, Helvetica。它们一般可以分为三类：serif, sans serif 和 monospaced。在Latex中，分别用简写rm, sf, tt表示。</p><p>字体族通常包含不同的风格，如斜体(italic)或加粗(bold)。</p><p>\setmainfont{} 设置西文正文默认罗马类字体。在Word中，默认字体通常是”Times New Roman”。<br>setsansfont{} 设置西文默认无衬线字体。一般出现在大标题等显眼的位置。这一部分常见的字体是Helvetica/Arial。<br>\setmonofont{} 设置西文默认等宽字体，一般用于排版程序代码。常见的字体是Courier或者Courier New。<br>xeCJK中提供了相似的三个命令设置对应的中文字体：</p><p>\setCJKmainfont[BoldFont={}, ItalicFont={}]{} 设置中文正文罗马类字体。大部分中文文档使用宋体排版 ，实际上就是Simsun。Linux下可能用文鼎宋体代替。与西文不同的是，这里允许我们指定粗体和斜体使用何种字体代替。之所以有这个区别，是因为中文不使用粗体表示强调，也不使用斜体表示引文或书名号。可指定BoldFont 和 ItalicFont 为某种黑体，Windows 环境下用SimHei，Linux 下用文泉驿正黑避免版权问题。<br>\setCJKsansfont{} 设置中文正文无衬线的CJK字体，影响\sffamily和\textsf的字体。可以设为宋体。<br>setCKJmonofont{} 设置中文正文等宽族的CJK字体，影响\ttfamily和\texttt的字体。可以设为宋体。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Latex </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Jupyter Notebook操作笔记</title>
       <link href="/2021/01/25/Jupyter%20Notebook%E7%94%A8%E6%B3%95/"/>
       <url>/2021/01/25/Jupyter%20Notebook%E7%94%A8%E6%B3%95/</url>
