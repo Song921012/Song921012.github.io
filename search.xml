@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title>程序附注</title>
+      <link href="/2021/03/23/%E7%A8%8B%E5%BA%8F%E8%AF%B4%E6%98%8E/"/>
+      <url>/2021/03/23/%E7%A8%8B%E5%BA%8F%E8%AF%B4%E6%98%8E/</url>
+      
+        <content type="html"><![CDATA[<h1 id="作者信息"><a href="#作者信息" class="headerlink" title="作者信息"></a>作者信息</h1><h1 id="程序内容简单介绍Readme"><a href="#程序内容简单介绍Readme" class="headerlink" title="程序内容简单介绍Readme"></a>程序内容简单介绍Readme</h1><h1 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h1><p>环境</p><h1 id="License"><a href="#License" class="headerlink" title="License"></a>License</h1><h1 id="路径说明"><a href="#路径说明" class="headerlink" title="路径说明"></a>路径说明</h1><h1 id="兼容性"><a href="#兼容性" class="headerlink" title="兼容性"></a>兼容性</h1><p>__future__方法</p><h1 id="魔法指令"><a href="#魔法指令" class="headerlink" title="魔法指令"></a>魔法指令</h1><h1 id="import"><a href="#import" class="headerlink" title="import"></a>import</h1><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python学习笔记</title>
+      <link href="/2021/03/23/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2021/03/23/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="语言背景介绍"><a href="#语言背景介绍" class="headerlink" title="语言背景介绍"></a>语言背景介绍</h1><p>历史、应用背景</p><h1 id="软件安装配置"><a href="#软件安装配置" class="headerlink" title="软件安装配置"></a>软件安装配置</h1><h1 id="计算机介绍"><a href="#计算机介绍" class="headerlink" title="计算机介绍"></a>计算机介绍</h1><h1 id="生态介绍"><a href="#生态介绍" class="headerlink" title="生态介绍"></a>生态介绍</h1><p>获取帮助</p><p>查看帮助文档</p><h1 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h1><p>print() input()</p><p>环境配置：系统，虚拟</p><p>路径</p><h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><p>数据转换</p><h1 id="语句"><a href="#语句" class="headerlink" title="语句"></a>语句</h1><h1 id="包"><a href="#包" class="headerlink" title="包"></a>包</h1><h1 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h1><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Rss攻略</title>
+      <link href="/2021/03/23/Rss%E8%AE%A2%E9%98%85/"/>
+      <url>/2021/03/23/Rss%E8%AE%A2%E9%98%85/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Rss-Feed的获取方法"><a href="#Rss-Feed的获取方法" class="headerlink" title="Rss Feed的获取方法"></a>Rss Feed的获取方法</h1><blockquote><p>网站自动获取链接</p><p>Rss客户端搜索</p><p>RssHub生成</p><p>PubMed生成</p></blockquote><h1 id="Rss客户端"><a href="#Rss客户端" class="headerlink" title="Rss客户端"></a>Rss客户端</h1><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科研基本技能 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Rss </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基金申请攻略</title>
       <link href="/2021/02/23/%E5%9F%BA%E9%87%91%E6%94%BB%E7%95%A5/"/>
       <url>/2021/02/23/%E5%9F%BA%E9%87%91%E6%94%BB%E7%95%A5/</url>
@@ -447,7 +522,7 @@
       <link href="/2020/08/01/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/"/>
       <url>/2020/08/01/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/</url>
       
-        <content type="html"><![CDATA[<h1 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h1><ol><li>研究前沿</li><li>资源分享</li><li>机器学习</li><li>时空数据分析</li><li>软件学习</li></ol><h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><p>(英文首字母大写)<br>Arcgis<br>Matlab<br>Python<br>R<br>电脑配置<br>Github<br>Vscode<br>展示<br>电脑<br>Markdown<br>数据<br>Pycharm<br>Conda<br>Notebook</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h1><ol><li>研究前沿</li><li>资源分享</li><li>机器学习</li><li>时空数据分析</li><li>软件学习</li><li>科研基本技能</li></ol><h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><p>(英文首字母大写)<br>Arcgis<br>Matlab<br>Python<br>R<br>电脑配置<br>Github<br>Vscode<br>展示<br>电脑<br>Markdown<br>数据<br>Pycharm<br>Conda<br>Notebook</p><p>Rss</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>

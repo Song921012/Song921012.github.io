@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://song921012.github.io/"/>
-  <updated>2021-02-23T07:40:27.504Z</updated>
+  <updated>2021-03-23T07:52:47.829Z</updated>
   <id>http://song921012.github.io/</id>
   
   <author>
@@ -15,6 +15,88 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>程序附注</title>
+    <link href="http://song921012.github.io/2021/03/23/%E7%A8%8B%E5%BA%8F%E8%AF%B4%E6%98%8E/"/>
+    <id>http://song921012.github.io/2021/03/23/%E7%A8%8B%E5%BA%8F%E8%AF%B4%E6%98%8E/</id>
+    <published>2021-03-23T04:40:00.000Z</published>
+    <updated>2021-03-23T07:52:47.829Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;作者信息&quot;&gt;&lt;a href=&quot;#作者信息&quot; class=&quot;headerlink&quot; title=&quot;作者信息&quot;&gt;&lt;/a&gt;作者信息&lt;/h1&gt;&lt;h1 id=&quot;程序内容简单介绍Readme&quot;&gt;&lt;a href=&quot;#程序内容简单介绍Readme&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件学习" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Python" scheme="http://song921012.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python学习笔记</title>
+    <link href="http://song921012.github.io/2021/03/23/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://song921012.github.io/2021/03/23/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-03-23T04:22:00.000Z</published>
+    <updated>2021-03-23T07:50:55.727Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;语言背景介绍&quot;&gt;&lt;a href=&quot;#语言背景介绍&quot; class=&quot;headerlink&quot; title=&quot;语言背景介绍&quot;&gt;&lt;/a&gt;语言背景介绍&lt;/h1&gt;&lt;p&gt;历史、应用背景&lt;/p&gt;
+&lt;h1 id=&quot;软件安装配置&quot;&gt;&lt;a href=&quot;#软件安装配置&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+      <category term="Python" scheme="http://song921012.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Rss攻略</title>
+    <link href="http://song921012.github.io/2021/03/23/Rss%E8%AE%A2%E9%98%85/"/>
+    <id>http://song921012.github.io/2021/03/23/Rss%E8%AE%A2%E9%98%85/</id>
+    <published>2021-03-23T04:21:00.000Z</published>
+    <updated>2021-03-23T07:49:33.772Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Rss-Feed的获取方法&quot;&gt;&lt;a href=&quot;#Rss-Feed的获取方法&quot; class=&quot;headerlink&quot; title=&quot;Rss Feed的获取方法&quot;&gt;&lt;/a&gt;Rss
+        
+      
+    
+    </summary>
+    
+    
+      <category term="科研基本技能" scheme="http://song921012.github.io/categories/%E7%A7%91%E7%A0%94%E5%9F%BA%E6%9C%AC%E6%8A%80%E8%83%BD/"/>
+    
+    
+      <category term="Rss" scheme="http://song921012.github.io/tags/Rss/"/>
+    
+  </entry>
   
   <entry>
     <title>基金申请攻略</title>
@@ -488,60 +570,6 @@
       <category term="Python" scheme="http://song921012.github.io/tags/Python/"/>
     
       <category term="R" scheme="http://song921012.github.io/tags/R/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客文章分类及标签</title>
-    <link href="http://song921012.github.io/2020/08/01/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/"/>
-    <id>http://song921012.github.io/2020/08/01/%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/</id>
-    <published>2020-08-01T03:25:00.000Z</published>
-    <updated>2021-01-25T12:48:03.598Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;分类&quot;&gt;&lt;a href=&quot;#分类&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="自娱自乐" scheme="http://song921012.github.io/categories/%E8%87%AA%E5%A8%B1%E8%87%AA%E4%B9%90/"/>
-    
-    
-      <category term="展示" scheme="http://song921012.github.io/tags/%E5%B1%95%E7%A4%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>朴素数据观</title>
-    <link href="http://song921012.github.io/2020/08/01/%E6%9C%B4%E7%B4%A0%E6%95%B0%E6%8D%AE%E8%A7%82/"/>
-    <id>http://song921012.github.io/2020/08/01/%E6%9C%B4%E7%B4%A0%E6%95%B0%E6%8D%AE%E8%A7%82/</id>
-    <published>2020-08-01T03:20:00.000Z</published>
-    <updated>2020-08-03T02:21:22.024Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;1-朴素数据观的核心-问题&quot;&gt;&lt;a href=&quot;#1-朴素数据观的核心-问题&quot; class=&quot;headerlink&quot; title=&quot;1 朴素数据观的核心: 问题&quot;&gt;&lt;/a&gt;1 朴素数据观的核心: 问题&lt;/h1&gt;&lt;h2 id=&quot;1-1-到底想做什么&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="机器学习" scheme="http://song921012.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="数据" scheme="http://song921012.github.io/tags/%E6%95%B0%E6%8D%AE/"/>
     
   </entry>
   
