@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Pengfei AI4Science</title>
+  
+  <subtitle>Scientific Machine Learning and Mathematical Epidemiology</subtitle>
+  <link href="http://song921012.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://song921012.github.io/"/>
+  <updated>2023-11-30T14:18:56.626Z</updated>
+  <id>http://song921012.github.io/</id>
+  
+  <author>
+    <name>Pengfei Song</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>State of the art</title>
+    <link href="http://song921012.github.io/2022/02/01/sota/"/>
+    <id>http://song921012.github.io/2022/02/01/sota/</id>
+    <published>2022-02-01T03:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://song921012.github.io/2021/02/03/links/&quot;&gt;External Links | Pengfei AI4Science&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;Software&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="个人介绍" scheme="http://song921012.github.io/categories/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/"/>
+    
+    
+    <category term="CV" scheme="http://song921012.github.io/tags/CV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>程序附注</title>
+    <link href="http://song921012.github.io/2021/03/23/cheng-xu-shuo-ming/"/>
+    <id>http://song921012.github.io/2021/03/23/cheng-xu-shuo-ming/</id>
+    <published>2021-03-23T04:40:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;作者信息&quot;&gt;&lt;a href=&quot;#作者信息&quot; class=&quot;headerlink&quot; title=&quot;作者信息&quot;&gt;&lt;/a&gt;作者信息&lt;/h1&gt;&lt;h1 id=&quot;程序内容简单介绍Readme&quot;&gt;&lt;a href=&quot;#程序内容简单介绍Readme&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Python" scheme="http://song921012.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python学习笔记</title>
+    <link href="http://song921012.github.io/2021/03/23/python-xue-xi-bi-ji/"/>
+    <id>http://song921012.github.io/2021/03/23/python-xue-xi-bi-ji/</id>
+    <published>2021-03-23T04:22:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;语言背景介绍&quot;&gt;&lt;a href=&quot;#语言背景介绍&quot; class=&quot;headerlink&quot; title=&quot;语言背景介绍&quot;&gt;&lt;/a&gt;语言背景介绍&lt;/h1&gt;&lt;p&gt;历史、应用背景&lt;/p&gt;
+&lt;h1 id=&quot;软件安装配置&quot;&gt;&lt;a href=&quot;#软件安装配置&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件" scheme="http://song921012.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="Python" scheme="http://song921012.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Rss攻略</title>
+    <link href="http://song921012.github.io/2021/03/23/rss-ding-yue/"/>
+    <id>http://song921012.github.io/2021/03/23/rss-ding-yue/</id>
+    <published>2021-03-23T04:21:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Rss-Feed的获取方法&quot;&gt;&lt;a href=&quot;#Rss-Feed的获取方法&quot; class=&quot;headerlink&quot; title=&quot;Rss Feed的获取方法&quot;&gt;&lt;/a&gt;Rss</summary>
+        
+      
+    
+    
+    
+    <category term="科研基本技能" scheme="http://song921012.github.io/categories/%E7%A7%91%E7%A0%94%E5%9F%BA%E6%9C%AC%E6%8A%80%E8%83%BD/"/>
+    
+    
+    <category term="Rss" scheme="http://song921012.github.io/tags/Rss/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>路径操作</title>
+    <link href="http://song921012.github.io/2021/03/23/lu-jing-cao-zuo/"/>
+    <id>http://song921012.github.io/2021/03/23/lu-jing-cao-zuo/</id>
+    <published>2021-03-23T04:21:00.000Z</published>
+    <updated>2023-11-30T14:18:56.627Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h1&gt;&lt;h2 id=&quot;相对和绝对路径&quot;&gt;&lt;a href=&quot;#相对和绝对路径&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Python" scheme="http://song921012.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基金申请攻略</title>
+    <link href="http://song921012.github.io/2021/02/23/ji-jin-gong-lue/"/>
+    <id>http://song921012.github.io/2021/02/23/ji-jin-gong-lue/</id>
+    <published>2021-02-23T01:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&quot;题目与摘要&quot;&gt;&lt;a href=&quot;#题目与摘要&quot; class=&quot;headerlink&quot; title=&quot;题目与摘要&quot;&gt;&lt;/a&gt;题目与摘要&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="基金" scheme="http://song921012.github.io/categories/%E5%9F%BA%E9%87%91/"/>
+    
+    
+    <category term="申请书" scheme="http://song921012.github.io/tags/%E7%94%B3%E8%AF%B7%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>External Links</title>
+    <link href="http://song921012.github.io/2021/02/03/links/"/>
+    <id>http://song921012.github.io/2021/02/03/links/</id>
+    <published>2021-02-03T03:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.625Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Important-Links-of-Pengfei&quot;&gt;&lt;a href=&quot;#Important-Links-of-Pengfei&quot; class=&quot;headerlink&quot; title=&quot;Important Links of</summary>
+        
+      
+    
+    
+    
+    <category term="个人介绍" scheme="http://song921012.github.io/categories/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/"/>
+    
+    
+    <category term="CV" scheme="http://song921012.github.io/tags/CV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Latex支持中文</title>
+    <link href="http://song921012.github.io/2021/02/02/latex-zhi-chi-zhong-wen-de-ji-chong-fang-fa/"/>
+    <id>http://song921012.github.io/2021/02/02/latex-zhi-chi-zhong-wen-de-ji-chong-fang-fa/</id>
+    <published>2021-02-02T09:10:00.000Z</published>
+    <updated>2023-11-30T14:18:56.625Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第一种方法-最新&quot;&gt;&lt;a href=&quot;#第一种方法-最新&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Latex" scheme="http://song921012.github.io/tags/Latex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Publications</title>
+    <link href="http://song921012.github.io/2021/02/02/publications/"/>
+    <id>http://song921012.github.io/2021/02/02/publications/</id>
+    <published>2021-02-02T03:25:00.000Z</published>
+    <updated>2024-04-25T02:35:36.328Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://scholar.google.com/citations?user=804PVzYAAAAJ&quot;&gt;Pengfei Song Google Scholar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="个人介绍" scheme="http://song921012.github.io/categories/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/"/>
+    
+    
+    <category term="CV" scheme="http://song921012.github.io/tags/CV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Resume of Pengfei Song</title>
+    <link href="http://song921012.github.io/2021/02/01/pengfei-cv/"/>
+    <id>http://song921012.github.io/2021/02/01/pengfei-cv/</id>
+    <published>2021-02-01T03:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.625Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;CV-of-Pengfei-Song&quot;&gt;&lt;a href=&quot;#CV-of-Pengfei-Song&quot; class=&quot;headerlink&quot; title=&quot;CV of Pengfei Song&quot;&gt;&lt;/a&gt;CV of Pengfei Song&lt;/h1&gt;&lt;table</summary>
+        
+      
+    
+    
+    
+    <category term="个人介绍" scheme="http://song921012.github.io/categories/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/"/>
+    
+    
+    <category term="CV" scheme="http://song921012.github.io/tags/CV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>R包的管理(转自网上)</title>
+    <link href="http://song921012.github.io/2021/02/01/r-bao-de-guan-li/"/>
+    <id>http://song921012.github.io/2021/02/01/r-bao-de-guan-li/</id>
+    <published>2021-02-01T01:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Rstudio包管理一网打尽，最全的R包管理终极教程&quot;&gt;&lt;a href=&quot;#Rstudio包管理一网打尽，最全的R包管理终极教程&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="R" scheme="http://song921012.github.io/tags/R/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Jupyter Notebook操作笔记</title>
+    <link href="http://song921012.github.io/2021/01/25/jupyter-notebook-yong-fa/"/>
+    <id>http://song921012.github.io/2021/01/25/jupyter-notebook-yong-fa/</id>
+    <published>2021-01-25T11:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.625Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;【机器学习基础】前置知识（二）：30分钟掌握常用Jupyter-Notebook用法&quot;&gt;&lt;a href=&quot;#【机器学习基础】前置知识（二）：30分钟掌握常用Jupyter-Notebook用法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Notebook" scheme="http://song921012.github.io/tags/Notebook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Pycharm操作笔记</title>
+    <link href="http://song921012.github.io/2021/01/25/pycharm-cao-zuo/"/>
+    <id>http://song921012.github.io/2021/01/25/pycharm-cao-zuo/</id>
+    <published>2021-01-25T11:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.625Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;快捷键&quot;&gt;&lt;a href=&quot;#快捷键&quot; class=&quot;headerlink&quot; title=&quot;快捷键&quot;&gt;&lt;/a&gt;快捷键&lt;/h1&gt;&lt;h2 id=&quot;最重要的快捷键&quot;&gt;&lt;a href=&quot;#最重要的快捷键&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Pycharm" scheme="http://song921012.github.io/tags/Pycharm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Conda操作笔记</title>
+    <link href="http://song921012.github.io/2021/01/25/conda-cao-zuo/"/>
+    <id>http://song921012.github.io/2021/01/25/conda-cao-zuo/</id>
+    <published>2021-01-25T11:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一-Conda管理&quot;&gt;&lt;a href=&quot;#一-Conda管理&quot; class=&quot;headerlink&quot; title=&quot;一 Conda管理&quot;&gt;&lt;/a&gt;一 Conda管理&lt;/h1&gt;&lt;h2 id=&quot;1-conda版本管理&quot;&gt;&lt;a href=&quot;#1-conda版本管理&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Conda" scheme="http://song921012.github.io/tags/Conda/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Arcgis教程</title>
+    <link href="http://song921012.github.io/2020/08/03/arcgis-cao-zuo/"/>
+    <id>http://song921012.github.io/2020/08/03/arcgis-cao-zuo/</id>
+    <published>2020-08-03T01:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.625Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;地图数据获取和整理&quot;&gt;&lt;a href=&quot;#地图数据获取和整理&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Arcgis" scheme="http://song921012.github.io/tags/Arcgis/"/>
+    
+    <category term="时空数据分析" scheme="http://song921012.github.io/tags/%E6%97%B6%E7%A9%BA%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Latex教程</title>
+    <link href="http://song921012.github.io/2020/08/03/latex/"/>
+    <id>http://song921012.github.io/2020/08/03/latex/</id>
+    <published>2020-08-03T01:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;魔法注释&quot;&gt;&lt;a href=&quot;#魔法注释&quot; class=&quot;headerlink&quot; title=&quot;魔法注释&quot;&gt;&lt;/a&gt;魔法注释&lt;/h1&gt;&lt;p&gt;% !TEX root = ./main.tex&lt;br&gt;% !TEX program = xelatex&lt;br&gt;%</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="展示" scheme="http://song921012.github.io/tags/%E5%B1%95%E7%A4%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git和vscode配置</title>
+    <link href="http://song921012.github.io/2020/08/02/git-xiao-bai-pei-zhi/"/>
+    <id>http://song921012.github.io/2020/08/02/git-xiao-bai-pei-zhi/</id>
+    <published>2020-08-02T13:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;初始全局配置&quot;&gt;&lt;a href=&quot;#初始全局配置&quot; class=&quot;headerlink&quot; title=&quot;初始全局配置&quot;&gt;&lt;/a&gt;初始全局配置&lt;/h1&gt;&lt;p&gt;git config –global user.name “Song921012”&lt;br&gt;git</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Github" scheme="http://song921012.github.io/tags/Github/"/>
+    
+    <category term="Vscode" scheme="http://song921012.github.io/tags/Vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo配置</title>
+    <link href="http://song921012.github.io/2020/08/02/hello-world/"/>
+    <id>http://song921012.github.io/2020/08/02/hello-world/</id>
+    <published>2020-08-02T11:45:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="展示" scheme="http://song921012.github.io/tags/%E5%B1%95%E7%A4%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vscode教程</title>
+    <link href="http://song921012.github.io/2020/08/02/vscode/"/>
+    <id>http://song921012.github.io/2020/08/02/vscode/</id>
+    <published>2020-08-02T10:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;编程学习&quot;&gt;&lt;a href=&quot;#编程学习&quot; class=&quot;headerlink&quot; title=&quot;编程学习&quot;&gt;&lt;/a&gt;编程学习&lt;/h1&gt;&lt;h2 id=&quot;1-数据结构&quot;&gt;&lt;a href=&quot;#1-数据结构&quot; class=&quot;headerlink&quot; title=&quot;1.</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Vscode" scheme="http://song921012.github.io/tags/Vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cmd和markdown教程</title>
+    <link href="http://song921012.github.io/2020/08/02/cmd-commands/"/>
+    <id>http://song921012.github.io/2020/08/02/cmd-commands/</id>
+    <published>2020-08-02T09:25:00.000Z</published>
+    <updated>2023-11-30T14:18:56.626Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;cmd-和-markdown常用操作&quot;&gt;&lt;a href=&quot;#cmd-和-markdown常用操作&quot; class=&quot;headerlink&quot; title=&quot;cmd 和 markdown常用操作&quot;&gt;&lt;/a&gt;cmd 和 markdown常用操作&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="编程学习" scheme="http://song921012.github.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="电脑" scheme="http://song921012.github.io/tags/%E7%94%B5%E8%84%91/"/>
+    
+    <category term="Markdown" scheme="http://song921012.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,1378 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Jupyter Notebook操作笔记, SciML; Deep Learning; Differential Equations">
+    <meta name="description" content="Couple of differential equations and deep learning; Scientific machine learning theory; Multiscale modeliing of infectious disease">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Jupyter Notebook操作笔记 | Pengfei AI4Science</title>
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="Pengfei AI4Science" type="application/atom+xml">
+
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.jpg" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Pengfei AI4Science</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>Contact</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>Friends</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.jpg" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Pengfei AI4Science</div>
+        <div class="logo-desc">
+            
+            Couple of differential equations and deep learning; Scientific machine learning theory; Multiscale modeliing of infectious disease
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			Friends
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/Song921012" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/Song921012" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Jupyter Notebook操作笔记</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Notebook/">
+                                <span class="chip bg-color">Notebook</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                编程学习
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2021-01-25
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
+                    1.5k
+                </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="【机器学习基础】前置知识（二）：30分钟掌握常用Jupyter-Notebook用法"><a href="#【机器学习基础】前置知识（二）：30分钟掌握常用Jupyter-Notebook用法" class="headerlink" title="【机器学习基础】前置知识（二）：30分钟掌握常用Jupyter Notebook用法"></a>【机器学习基础】前置知识（二）：30分钟掌握常用Jupyter Notebook用法</h1><p><a href="javascript:void(0);">机器学习初学者</a> <em>今天</em></p>
+<p>以下文章来源于caiyongji ，作者caiyongji</p>
+<p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzIwODI2NDkxNQ==&amp;mid=2247493260&amp;idx=2&amp;sn=d34d7d217b511239ae0e559f8a128d15&amp;chksm=97076d30a070e42698e81faad2dd13d95b2bc6c7bf74e1e04bdbb517ec85b74dc013be630205&amp;scene=126&amp;sessionid=1610938870&amp;key=d6547bc72c38852a2d2c5e823de0ef9220be500fdd3257ff5915fcf1188d791fd1a9e3a11f5042b0635b9ce6975b1d5c7d3189e19d8146195c46a264b2991206827b4c22fb3ae86abac45826dfb656eed196d068f2cd3715c888cb6fc4f785f5658c4e5ae0c9765ffe581251582b4b5c39a7cc0aceedc48bd90ade57541e16d4&amp;ascene=1&amp;uin=ODE5MTA2NjQ1&amp;devicetype=Windows+10+x64&amp;version=63010029&amp;lang=zh_CN&amp;exportkey=Ai2Pd6CcnSlHQpwEiz1ILf4=&amp;pass_ticket=bgnW0bpNZfwyGCQBeENH9oAV3GJZFOCU3T+H5T10KKe40t/wnCkTOtFte1Of/Vfo&amp;wx_header=0&amp;fontgear=2#"><img src="http://wx.qlogo.cn/mmhead/Q3auHgzwzM5VATuIkw73YTSlXq0XrD9mTKbsibhrdicHlibFJyGfZr6LA/0" alt="caiyongji"><strong>caiyongji</strong>你发现没有，敢用自己名字的公众号通常干货满满。2021年：专注于人工智能领域。</a></p>
+<blockquote>
+<p>相较于Pycharm执行py文件来说，Jupyter Notebook可保存执行过程，添加图表、注释等富文本说明的功能，使其对机器学习的开发者格外友好。</p>
+</blockquote>
+<p>本文包含机器学习环境安装，Jupyter Notebook常见用法：常见使用、命令、快捷键等。进阶用法：LaTeX数学公式、魔法命令等。</p>
+<p>本文收录于<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&amp;__biz=MzUxMjU4NjI4MQ==&amp;scene=1&amp;album_id=1627166768236412929&amp;count=3#wechat_redirect">机器学习前置教程系列</a>。</p>
+<h1 id="一、机器学习环境安装"><a href="#一、机器学习环境安装" class="headerlink" title="一、机器学习环境安装"></a>一、机器学习环境安装</h1><p>网上安装机器学习环境的资料非常多，我没有必要过分详细介绍。此处推荐我个人的安装方式Miniconda+清华镜像，因为使用国内镜像所以非常快。</p>
+<h2 id="1-Miniconda"><a href="#1-Miniconda" class="headerlink" title="1. Miniconda"></a>1. Miniconda</h2><p>Miniconda 是Anaconda的<strong>最小</strong>安装版。只包含<code>conda</code>和<code>Python</code>以及它们依赖的少量软件包，包括<code>pip</code>, <code>zlib</code>等。<br>Miniconda下载地址：<a target="_blank" rel="noopener" href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a></p>
+<h2 id="2-pip-install"><a href="#2-pip-install" class="headerlink" title="2. pip install"></a>2. pip install</h2><p>下载安装常用软件包，<code>-i</code> 参数指定清华镜像下载。<br><strong>注意</strong>：本例安装tensorflow CPU版本，如需安装tensorflow GPU版本，替换<code>tensorflow-cpu</code>为<code>tensorflow</code>。<br>GPU版TensorFlow需安装CUDA和cuDNN，详情见TensorFlow中文官网-GPU支持:<a target="_blank" rel="noopener" href="https://tensorflow.google.cn/install/gpu%E3%80%82">https://tensorflow.google.cn/install/gpu。</a></p>
+<pre><code>pip install --upgrade pip
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow-cpu tensorflow-datasets tf-agents matplotlib pandas scikit-learn scikit-image ipython jupyter keras gym lxml xlrd openpyxl sqlalchemy
+</code></pre>
+<h2 id="3-Colaboratory-可选"><a href="#3-Colaboratory-可选" class="headerlink" title="3. Colaboratory[可选]"></a>3. Colaboratory[可选]</h2><p>对于有<em>外网条件</em>的人来说，Colaboratory可以作为上述配置的替代品。<br>Colaboratory是谷歌开发的在浏览器上运行Python的工具，其支持GPU和TPU。使用体验与Jupyter Notebook一致，但更方便。以我个人使用为例，它免费赠送12.72GB内存和107.77GB的硬盘。简单来说，它比一般的个人电脑要快。Colab支持付费版，性能更高。<br>Colaboratory官方地址：<a target="_blank" rel="noopener" href="https://colab.research.google.com/">https://colab.research.google.com/</a></p>
+<h1 id="二、Jupyter-Notebook"><a href="#二、Jupyter-Notebook" class="headerlink" title="二、Jupyter Notebook"></a>二、Jupyter Notebook</h1><p>打开Miniconda/Anaconda命令行，输入启动命令启动Jupyter。</p>
+<pre><code>jupyter Notebook
+</code></pre>
+<p>如下图，进入Jupyter启动页，然后点击<code>New --&gt; Python3</code> 新建Notebook。现在我们正式进入Jupyter Notebook的世界。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_gif/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZg7xljjGWiarqciceBiaMic5XkjNiaqlYrVXic3s5fCuQbV4feTOFvP3gOB9gw/640?wx_fmt=gif&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1" alt="图片"></p>
+<h2 id="1-常见用法"><a href="#1-常见用法" class="headerlink" title="1. 常见用法"></a>1. 常见用法</h2><h3 id="1-1-打印"><a href="#1-1-打印" class="headerlink" title="1.1 打印"></a>1.1 打印</h3><p>键入命令，按Ctrl+Enter执行单元格。</p>
+<pre><code>print("2020, 戴好口罩！")
+</code></pre>
+<p>执行结果如图所示</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZgaLYZmf3GexDEP6r1RMCagku0swEGOicia7f7GWQNRIg1aZWOYEAeLKMw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<h3 id="1-2-新建单元格，自动补全"><a href="#1-2-新建单元格，自动补全" class="headerlink" title="1.2 新建单元格，自动补全"></a>1.2 新建单元格，自动补全</h3><p>按B（Below）键，在单元格下方新建单元格。</p>
+<p>输入下方代码，按<code>Shift+Enter</code>执行单元格。试试在输入<code>np.lins</code>时按Tab键，Jupyter将自动补全代码。关于<code>linspace</code>方法，我们将在接下来讲解Numpy的文章中说明。</p>
+<pre><code>import numpy as np
+myarray = np.linspace(0,10,101)
+</code></pre>
+<p><code>Shift+Enter</code>将执行选中单元格，并选择下方单元格。如下方无单元格则新建单元格。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZgcwa1vszbrhTz9efr3fDaibicQ42plCaYia1PEZ8k0RzVI6JtbNfxtGUXw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<h3 id="1-3-代码提示"><a href="#1-3-代码提示" class="headerlink" title="1.3 代码提示"></a>1.3 代码提示</h3><p>输入<code>myarray</code>，按<code>Alt+Enter</code>执行选中单元格，并在下方插入新的单元格。我们将光标放在代码后方，按<code>Shift+Tab</code>查看代码提示。按<strong>两次</strong><code>Shift+Tab</code>可查看代码详情。</p>
+<pre><code>myarray
+</code></pre>
+<p>如图显示，myarray是ndarray类型的数组。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZg2iciaVick8KdKmc8N64rMGyZY8qSARJaRkyadVKpP4a4jwicMTRJia9OyBQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<h3 id="1-4-Markdown"><a href="#1-4-Markdown" class="headerlink" title="1.4 Markdown"></a>1.4 Markdown</h3><p>选中myarray单元格，按 <code>A</code> （Above）在myarray上方插入单元格，再按 <code>M</code> 将单元格格式转换为Markdown格式。</p>
+<pre><code>## markdown
+在此处点击**Shift+Tab**可查看myarray数据类型。
+</code></pre>
+<p>执行得到如下显示。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZgCiaHBQVBMA2HRYkYorBPYibL6N2773lv4N5dR30sXcCLsabwJfsiaov0A/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<h3 id="1-5-序号说明"><a href="#1-5-序号说明" class="headerlink" title="1.5 序号说明"></a>1.5 序号说明</h3><p>单元格前面的序号表示单元格执行的次序。<strong>其中空[ ]为从来没执行过。[*]为尚未执行到。</strong></p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZgHQP0XqXjZtT4QAk2sXeuDf1jUiaDO48t9icxWq0eQNjYn343dRBrck8A/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<h3 id="1-6-Jupyter两种模式及全部快捷键"><a href="#1-6-Jupyter两种模式及全部快捷键" class="headerlink" title="1.6 Jupyter两种模式及全部快捷键"></a>1.6 Jupyter两种模式及全部快捷键</h3><h4 id="1-6-1-命令模式（按ESC进入）"><a href="#1-6-1-命令模式（按ESC进入）" class="headerlink" title="1.6.1 命令模式（按ESC进入）"></a>1.6.1 命令模式（按ESC进入）</h4><p>Jupyter常用命令模式快捷键：</p>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>操作</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>在上方插入单元格</td>
+</tr>
+<tr>
+<td>B</td>
+<td>在下面插入单元格</td>
+</tr>
+<tr>
+<td>D,D</td>
+<td>删除选定的单元格</td>
+</tr>
+<tr>
+<td>Shift-Enter</td>
+<td>运行单元格，在下面选择</td>
+</tr>
+<tr>
+<td>Ctrl-Enter</td>
+<td>运行选定的单元格</td>
+</tr>
+<tr>
+<td>Alt-Enter</td>
+<td>运行单元格并在下面插入</td>
+</tr>
+<tr>
+<td>Y</td>
+<td>将单元格更改为代码格式</td>
+</tr>
+<tr>
+<td>M</td>
+<td>将单元格更改为Markdown格式</td>
+</tr>
+</tbody></table>
+<h4 id="1-6-2-编辑模式（按Enter进入）"><a href="#1-6-2-编辑模式（按Enter进入）" class="headerlink" title="1.6.2 编辑模式（按Enter进入）"></a>1.6.2 编辑模式（按Enter进入）</h4><p>Jupyter常用编辑模式快捷键：</p>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>操作</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Tab</td>
+<td>代码补全或缩进</td>
+</tr>
+<tr>
+<td>Shift-Tab</td>
+<td>代码提示</td>
+</tr>
+<tr>
+<td>Ctrl-D</td>
+<td>删除整行</td>
+</tr>
+<tr>
+<td>Shift-Enter</td>
+<td>运行单元格，在下面选择</td>
+</tr>
+<tr>
+<td>Ctrl-Enter</td>
+<td>运行选定的单元格</td>
+</tr>
+<tr>
+<td>Alt-Enter</td>
+<td>运行单元格并在下面插入</td>
+</tr>
+</tbody></table>
+<h4 id="1-6-3-Jupyter-Notebook快捷键大全"><a href="#1-6-3-Jupyter-Notebook快捷键大全" class="headerlink" title="1.6.3 Jupyter Notebook快捷键大全"></a>1.6.3 Jupyter Notebook快捷键大全</h4><p>进入命令模式，按 <code>H</code> 查看所有Jupyter Notebook快捷键。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZgticOibGMTK6s7dOG3t0OiaoXA7qRS0rj9ltGK6T5Y7Qqydfmm4hQh1zFw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<h2 id="2-进阶用法"><a href="#2-进阶用法" class="headerlink" title="2. 进阶用法"></a>2. 进阶用法</h2><h3 id="2-1-LaTeX数学公式支持"><a href="#2-1-LaTeX数学公式支持" class="headerlink" title="2.1 LaTeX数学公式支持"></a>2.1 LaTeX数学公式支持</h3><p>Jupyter Notebook 支持LaTex数学公式。新建Markdown代码格式单元格。</p>
+<p>输入下方文本将显示LaTeX公式，这对我们学习机器学习记数学公式非常有帮助。</p>
+<pre><code>### variance 方差公式
+$$s^2 = \frac{\sum_{i=1}^{n}{(x_i -x)^2}}{n}$$
+(其中`x`为均值)
+</code></pre>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZgZwUrJXYOoBrOoqWgEl33VCQR7YSGHGrIVavuOeXLicibXY9yP5p8hzUw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p>试试执行下面的代码，看看会显示什么？</p>
+<pre><code>\begin{equation*}
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+\end{equation*}
+</code></pre>
+<p>更多LaTeX的用法，我会在接下来的文章中详细介绍，还请您多多关注我。</p>
+<h3 id="2-2-魔法命令"><a href="#2-2-魔法命令" class="headerlink" title="2.2 魔法命令"></a>2.2 魔法命令</h3><p>输入<code>%lsmagic</code>查看所有可用魔法命令。</p>
+<pre><code>%lsmagic
+</code></pre>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZgZ1lcTZ7ST1hNBqP6rgHBf39JWqtzzzCicA5FKjdnicuia9EAgQWiabzw4g/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<p>其中比较常见的如 %pwd, %timeit等。</p>
+<p><img src="https://mmbiz.qpic.cn/mmbiz_png/RFqA2R4MfQQJ72Vbx3k4r5qkE2Z1EGZgXSaRN6uDyx9QEFc8ibibMka7YbubpBqoXc8G9pfTw74FCzIzPqaqRibXA/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="图片"></p>
+<h2 id="3-更多"><a href="#3-更多" class="headerlink" title="3. 更多"></a>3. 更多</h2><p>修改路径</p>
+<p>1.在cmd中输入命令使Jupyter产生配置文件：Jupyter_notebook_config.py</p>
+<pre class=" language-text"><code class="language-text">jupyter notebook --generate-config
+</code></pre>
+<p><img src="https://pic1.zhimg.com/80/v2-0604da3672cc1fb26037a83333be4ccc_720w.jpg" alt="img"></p>
+<p>2.在我的文档里如下路径找到刚才生成的配置文件（nickw是我的电脑的用户名）</p>
+<p>C:\Users\nickw.jupyter</p>
+<p><img src="https://pic3.zhimg.com/80/v2-dbc0ffc4f0b95e3beb524588dc104cf6_720w.jpg" alt="img"></p>
+<p>3.用记事本打开此配置文档，并用搜索（Ctrl+F）找到如下字段：</p>
+<pre class=" language-text"><code class="language-text">#c.NotebookApp.notebook_dir =
+</code></pre>
+<p><img src="https://pic4.zhimg.com/80/v2-36cecb4cfac0f09be45776ee0a868f9b_720w.jpg" alt="img"></p>
+<p>4.在后面的引号“”中输入想修改为的默认工作路径，删除前面的#，保存文件</p>
+<p><img src="https://pic2.zhimg.com/80/v2-e73a7f4fb84c75940438a6228ac01611_720w.jpg" alt="img"></p>
+<p>5.修改Jupyter Notebook的快捷方式，删掉目标中的%USERPROFILE%并在后面添加上刚才设置好的默认工作路径</p>
+<p><img src="https://pic2.zhimg.com/80/v2-28441c201f7c4b68a855f5c6b5c79885_720w.jpg" alt="img"></p>
+<p>大功告成！</p>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Song Pengfei</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://song921012.github.io/2021/01/25/jupyter-notebook-yong-fa/">http://song921012.github.io/2021/01/25/jupyter-notebook-yong-fa/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint polocy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">Song Pengfei</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Notebook/">
+                                    <span class="chip bg-color">Notebook</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">谢谢你的认可</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'af1df1fcaa7489d70dd6',
+        clientSecret: 'fbca4ecbce92d1bae357678b55939f4042d3fdb6',
+        repo: 'Song921012.github.io',
+        owner: 'Song921012',
+        admin: "Song921012",
+        id: '2021-01-25T19-25-00',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/2021/02/01/r-bao-de-guan-li/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="R包的管理(转自网上)">
+                        
+                        <span class="card-title">R包的管理(转自网上)</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            R包的管理
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-02-01
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    编程学习
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/R/">
+                        <span class="chip bg-color">R</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/01/25/pycharm-cao-zuo/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Pycharm操作笔记">
+                        
+                        <span class="card-title">Pycharm操作笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Pycharm一些操作汇总
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-25
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    编程学习
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Pycharm/">
+                        <span class="chip bg-color">Pycharm</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="3085054654"
+                   fixed='true'
+                   autoplay='true'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">Pengfei Song</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">15.4k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2020";
+                    var startMonth = "08";
+                    var startDate = "1";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/Song921012" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1247533928@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1247533928" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1247533928" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+
+    <a href="https://www.researchgate.net/profile/Pengfei_Song6" class="tooltipped" target="_blank" data-tooltip="访问我的Researchgate" data-position="top" data-delay="50">
+        <i class="fab fa-researchgate"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
